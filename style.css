@@ -1,0 +1,66 @@
+/* General */
+*{
+    margin: 0;
+    color: white;
+}
+/* End general */
+
+/* Header */
+header{
+    background-color: #A63740;
+    padding-top: 1%;
+    font-family: ;
+}
+
+.title{
+}
+.close{
+    padding: 1%;
+}
+
+#head{
+    display: flex;
+}
+.title{
+    flex:1;
+    text-align: center;
+}
+.close{
+
+}
+/* end header */
+
+/* Main */
+main{
+    /*background-color:ff0008;*/
+    background: linear-gradient(90deg, red 30%, black 70%);
+    display: flex;
+    align-items: center;
+}
+
+#background_image_gradient {
+    display: flex;
+    flex-direction: column;
+}
+
+#image_left {
+}
+
+#presentation{
+}
+
+/* End main */
+
+/* Footer */
+footer{
+    background-color: #1d2126;
+}
+.recommandations>ul li:hover{background-color: thistle;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* End footer */
