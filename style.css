@@ -9,11 +9,8 @@
 header{
     background-color: #A63740;
     padding-top: 1%;
-    font-family: ;
 }
 
-.title{
-}
 .close{
     padding: 1%;
 }
@@ -25,9 +22,7 @@ header{
     flex:1;
     text-align: center;
 }
-.close{
 
-}
 /* end header */
 
 /* Main */
@@ -36,17 +31,25 @@ main{
     background: linear-gradient(90deg, red 30%, black 70%);
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 #background_image_gradient {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-#image_left {
+#image_left{
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 #presentation{
+    align-self: flex-end;
+}
+
+.genre>ul li{
+    list-style: none;
 }
 
 /* End main */
@@ -54,13 +57,29 @@ main{
 /* Footer */
 footer{
     background-color: #1d2126;
+    justify-content: space-around;
 }
-.recommandations>ul li:hover{background-color: thistle;
-    display: flex;
-    flex-wrap: wrap;
+/* recommandations */
+.recommandations{
+    display: contents;
+    list-style: none;
+}
+.recommandations>ul li{
+    display: inline;
+    margin: 5px;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+}
+.recommandations>ul li:hover{
+    border-bottom: 1px solid white;
 }
 .slider{
     display: flex;
     flex-wrap: wrap;
+}
+.image_slider{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
 }
 /* End footer */
